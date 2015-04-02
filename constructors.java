@@ -5,8 +5,9 @@ class Machine {
 	private int code;
 	
 	public Machine() {
-		System.out.println("Constructor runing");
-		name = "Default name";
+		this("Default name", 0);
+		System.out.println("First constructor");
+		
 	}
 	
 	public Machine (String name) {
