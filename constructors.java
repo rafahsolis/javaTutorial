@@ -1,4 +1,4 @@
-package tutorial1;
+package tutorialJava;
 
 class Cosa {
 	private String name;

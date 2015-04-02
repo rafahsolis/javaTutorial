@@ -1,4 +1,4 @@
-package tutorial1;
+package tutorialJava;
 
 class Frog {
 	private String name;

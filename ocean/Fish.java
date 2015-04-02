@@ -1,4 +1,4 @@
-package tutorial1.ocean;
+package tutorialJava.ocean;
 
 public class Fish {
 

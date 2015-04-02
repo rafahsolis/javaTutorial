@@ -1,4 +1,4 @@
-package tutorial1;
+package tutorialJava;
 
 class Dog {
 	private int id;

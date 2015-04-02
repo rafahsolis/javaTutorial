@@ -1,7 +1,7 @@
-package tutorial1;
+package tutorialJava;
 
-import tutorial1.ocean.Fish;
-import tutorial1.ocean.Seaweed;
+import tutorialJava.ocean.Fish;
+import tutorialJava.ocean.Seaweed;
 
 public class packageexample {
 	Fish fish1 = new Fish();
