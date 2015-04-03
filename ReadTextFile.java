@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ReadTextFile {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		//String filename = "/home/user/documentos/learning/java/tutorial1/src/tutorialJava/textFile.txt";
+		//String filename = "/home/rafa/documentos/learning/java/tutorial1/src/tutorialJava/textFile.txt";
 		String filename = "./src/tutorialJava/textFile.txt";
 		File textFile = new File(filename);
 		Scanner Sc = new Scanner(textFile);
