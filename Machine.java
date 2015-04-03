@@ -14,4 +14,9 @@ public class Machine implements Info {
 		System.out.println("Machine id is: " + id);
 		
 	}
+	@Override
+	public String toString() {
+		return "Machine [id=" + id + "]";
+	}
+	
 }

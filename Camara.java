@@ -10,5 +10,10 @@ public class Camara extends Machine {
 	public void snap(){
 		System.out.println("Photo taken");
 	}
+
+	@Override
+	public String toString() {
+		return "Camara";
+	}
 	
 }
