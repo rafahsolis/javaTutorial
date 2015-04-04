@@ -3,12 +3,15 @@ package tutorialJava;
 public class Robot {
 	private int id;
 
+	
+	// Nested class
 	private class Brain{
 		public void think(){
 			System.out.println("Robot " + id + " is thinking...");
 		}
 	}
 	
+	// Static inner class
 	static class Battery {
 		public void charge(){
 			System.out.println("Batery Charging...");
@@ -26,6 +29,8 @@ public class Robot {
 		brain.think();
 		final String name = "Robert";
 		
+		
+		// Local class
 		class Temp {
 			public void doSomething(){
 				System.out.println("ID is: " + id);
