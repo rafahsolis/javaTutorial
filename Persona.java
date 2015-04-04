@@ -1,6 +1,10 @@
 package tutorialJava;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable {
+
+	private static final long serialVersionUID = -7736943944995576553L;
 	private int id;
 	private String name;
 
